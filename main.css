@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color:black;
+    /* padding: 6%; */
+}
+.maincontainer{
+    min-height: 80vh;
+    border: 2px solid black;
+    width: 60vw;
+    background-color: rgb(189, 217, 135);
+    padding: 3rem;
+    min-height: 100vh;
+}
+.innerbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+p{
+    font-size: 1.2rem;
+
+}
+input,textarea,button{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: rgba(15, 12, 12, 0.546);
+    color: rgba(0, 0, 0, 0.973);
+}
+.text{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    border-radius: 20px;
+    margin: 2vmax;
+    padding:1rem
+    
+}
+.text div{
+    width:100%;
+    min-height: 40px;
+    /* background-color:chartreuse; */
+}
+.text button{
+    width:1rem;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.text button:hover{
+    background-color: rgba(255, 0, 0, 0.534);
+}
